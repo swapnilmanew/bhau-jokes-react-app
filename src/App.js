@@ -65,7 +65,7 @@ export default function App() {
                 </button>
                 <br />
                 <p className="font-weight-bold">
-                  #funWithProgramming
+                  #funWithProgramming &nbsp;
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
