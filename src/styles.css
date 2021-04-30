@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Cambay&display=swap");
+
+* {
+  font-family: "Abel", sans-serif;
+}
+.btn {
+  background: #1b6569;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/1183434/pexels-photo-1183434.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-family: "Cambay", sans-serif;
+}
+img {
+  animation: rotate 2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
